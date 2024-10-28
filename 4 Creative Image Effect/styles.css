@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 6%, #C850C0 41%, #FFCC70 58%, #ffffff 86%);
     ;
@@ -12,7 +13,7 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     position: relative;
     width: 800px;
     height: 500px;
@@ -20,7 +21,7 @@ body{
     box-shadow: 10px 5px 10px #fff;
 }
 
-.clip{
+.clip {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,19 +30,21 @@ body{
     transition: all 0.5s;
 }
 
-.clip1{
+.clip1 {
     background: url("assest/1.jpg");
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 46% 0, 39% 100%, 0% 100%);
 }
-.clip2{
+
+.clip2 {
     background: url("assest/2.jpg");
     background-size: cover;
     background-position: center;
     clip-path: polygon(19% 0, 87% 0, 64% 100%, 33% 100%);
 }
-.clip3{
+
+.clip3 {
     background: url("assest/3.jpg");
     background-size: cover;
     background-position: center;
@@ -49,10 +52,10 @@ body{
 
 }
 
-.container:hover .clip{
+.container:hover .clip {
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
 
-.container .clip:hover{
+.container .clip:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
