@@ -17,7 +17,6 @@ body{
 }
 /* scrollBar */
 ::-webkit-scrollbar{
-    /* background-color: teal; */
     width: 10px;
     background-color: transparent;
     border: 2px dotted #fff;
